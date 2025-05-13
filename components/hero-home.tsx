@@ -69,6 +69,7 @@ export default function HeroHome() {
                 <span className="animate-[code-3_10s_infinite]">
                   🧠 Model loaded: HazardNet_v3.4
                 </span>{" "}
+                <br />
                 <span className="animate-[code-4_10s_infinite]">
                   ⚠️ Detection: worker_missing_helmet @ 13:02:11
                 </span>
