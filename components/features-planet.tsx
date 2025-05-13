@@ -14,7 +14,7 @@ export default function FeatureSection() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
-            <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
+            <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
               AI-driven features for a safer worksite
             </h2>
           </div>
