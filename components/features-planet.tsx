@@ -6,6 +6,7 @@ import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
 import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
 import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
+
 export default function FeatureSection() {
   return (
     <section className="relative">
@@ -14,63 +15,99 @@ export default function FeatureSection() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-              Our AI-driven features
+              AI-driven features for a safer worksite
             </h2>
           </div>
           {/* Features Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
-                <FontAwesomeIcon icon={faChartLine} className="w-6 h-6 text-blue-500" />
-                <span>Instant Analytics</span>
+                <Image
+                  src="/icons/analytics.svg" // Path to the icon in the public folder
+                  alt="Real-Time Safety Analytics"
+                  width={24}
+                  height={24}
+                  className="text-blue-500"
+                />
+                <span>Real-Time Safety Analytics</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Our AI offers real-time data insights to optimize safety and efficiency on worksites.
+                Monitor site conditions with real-time analytics, ensuring immediate responses to safety risks.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
-                <FontAwesomeIcon icon={faTags} className="w-6 h-6 text-blue-500" />
-                <span>Metadata</span>
+                <Image
+                  src="/icons/metadata.svg" // Path to the icon in the public folder
+                  alt="Safety Data Management"
+                  width={24}
+                  height={24}
+                  className="text-blue-500"
+                />
+                <span>Safety Data Management</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Automatically collects and organizes metadata for safety compliance and auditing.
+                Seamlessly track and manage compliance data to ensure adherence to safety regulations.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
-                <FontAwesomeIcon icon={faSearch} className="w-6 h-6 text-blue-500" />
-                <span>SEO & Performance</span>
+                <Image
+                  src="/icons/search.svg" // Path to the icon in the public folder
+                  alt="Predictive Safety Insights"
+                  width={24}
+                  height={24}
+                  className="text-blue-500"
+                />
+                <span>Predictive Safety Insights</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Optimize your site’s safety and performance with AI-driven SEO and analytics.
+                Harness the power of AI to predict potential safety hazards before they escalate.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
-                <FontAwesomeIcon icon={faCode} className="w-6 h-6 text-blue-500" />
-                <span>Custom Code</span>
+                <Image
+                  src="/icons/code.svg" // Path to the icon in the public folder
+                  alt="Custom Safety Solutions"
+                  width={24}
+                  height={24}
+                  className="text-blue-500"
+                />
+                <span>Custom Safety Solutions</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Integrate custom code into your site to enhance its safety features based on specific needs.
+                Tailor AI-driven safety measures to fit the unique needs of your worksite, ensuring optimal protection.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
-                <FontAwesomeIcon icon={faGlobe} className="w-6 h-6 text-blue-500" />
-                <span>Localization</span>
+                <Image
+                  src="/icons/globe.svg" // Path to the icon in the public folder
+                  alt="Global Safety Compliance"
+                  width={24}
+                  height={24}
+                  className="text-blue-500"
+                />
+                <span>Global Safety Compliance</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Ensure your site complies with local safety regulations, no matter where your teams are located.
+                Ensure that your worksite meets local and international safety standards, no matter where you operate.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
-                <FontAwesomeIcon icon={faLink} className="w-6 h-6 text-blue-500" />
-                <span>Canonical URL</span>
+                <Image
+                  src="/icons/link.svg" // Path to the icon in the public folder
+                  alt="Safety Metrics Tracking"
+                  width={24}
+                  height={24}
+                  className="text-blue-500"
+                />
+                <span>Safety Metrics Tracking</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Use canonical URLs to ensure accurate tracking and indexing of your safety-related pages.
+                Continuously track safety performance metrics to improve site safety over time.
               </p>
             </article>
           </div>
