@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Home - worksafe.ai",
+  description: "AI-Powered Safety for Industrial Worksites",
 };
 
 import Hero from "@/components/hero-home";
