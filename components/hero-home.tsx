@@ -58,35 +58,29 @@ export default function HeroHome() {
                   safework.ai
                 </span>
               </div>
-              <div className="font-mono text-gray-500 [&_span]:opacity-0">
-                <span className="animate-[code-1_10s_infinite] text-gray-200">
-                  Initializing SafeWorkAI Core...
-                </span>{" "}
-                <span className="animate-[code-2_10s_infinite]">
-                  ✅ Video stream connected: zone_3_cam_12
-                </span>
-                <br />
-                <span className="animate-[code-3_10s_infinite]">
-                  🧠 Model loaded: HazardNet_v3.4
-                </span>{" "}
-                <br />
-                <span className="animate-[code-4_10s_infinite]">
-                  ⚠️ Detection: worker_missing_helmet @ 13:02:11
-                </span>
-                <br />
-                <br />
-                <span className="animate-[code-5_10s_infinite] text-gray-200">
-                  🚧 Risk level: Medium — PPE violation
-                </span>
-                <br />
-                <span className="animate-[code-6_10s_infinite]">
-                  🔁 Notified: Safety supervisor (ID 2271)
-                </span>
-                <br />
-                <span className="animate-[code-7_10s_infinite] text-gray-200">
-                  ✔ Incident logged to compliance dashboard
-                </span>
-              </div>
+              <div className="font-mono text-gray-500 [&_span]:opacity-0 space-y-1">
+  <span className="block animate-[code-1_10s_infinite] text-gray-200">
+    Initializing SafeWorkAI Core...
+  </span>
+  <span className="block animate-[code-2_10s_infinite]">
+    ✅ Video stream connected: zone_3_cam_12
+  </span>
+  <span className="block animate-[code-3_10s_infinite]">
+    🧠 Model loaded: HazardNet_v3.4
+  </span>
+  <span className="block animate-[code-4_10s_infinite]">
+    ⚠️ Detection: worker_missing_helmet @ 13:02:11
+  </span>
+  <span className="block animate-[code-5_10s_infinite]">
+    🚧 Risk level: Medium — PPE violation
+  </span>
+  <span className="block animate-[code-6_10s_infinite]">
+    🔁 Notified: Safety supervisor (ID 2271)
+  </span>
+  <span className="block animate-[code-7_10s_infinite] text-gray-200">
+    ✔ Incident logged to compliance dashboard
+  </span>
+</div>
             </div>
           </div>
         </div>
