@@ -10,23 +10,17 @@ export default function Banner() {
       {bannerOpen && (
         <div className="fixed bottom-0 right-0 z-50 w-full md:bottom-8 md:right-12 md:w-auto">
           <div className="flex justify-between bg-slate-800 p-3 text-sm text-slate-50 shadow-lg md:rounded-sm">
-            <div className="inline-flex text-slate-500">
+            <div className="inline-flex text-slate-400">
+              <span>
+                Discover how{" "}
+                <span className="text-white font-semibold">SafeWorkAI</span>{" "}
+                helps reduce risk and improve site safety with AI.
+              </span>
               <a
-                className="font-medium text-slate-50 hover:underline"
-                href="https://github.com/cruip/tailwind-landing-page-template"
-                target="_blank"
-                rel="noreferrer"
+                className="ml-2 text-emerald-400 font-medium hover:underline"
+                href="mailto:akshatvsthakur@gmail.com"
               >
-                Download<span className="hidden sm:inline"> on GitHub</span>
-              </a>{" "}
-              <span className="px-1.5 italic">or</span>{" "}
-              <a
-                className="font-medium text-emerald-400 hover:underline"
-                href="https://cruip.com/simple/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Check Premium Version
+                Get in touch
               </a>
             </div>
             <button
