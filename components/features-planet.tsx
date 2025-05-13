@@ -5,8 +5,6 @@ import PlanetTagImg01 from "@/public/images/planet-tag-01.png";
 import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
 import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
 import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartLine, faTags, faSearch, faCode, faGlobe, faLink } from '@fortawesome/free-solid-svg-icons';
 
 export default function FeatureSection() {
   return (
