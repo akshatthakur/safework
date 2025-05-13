@@ -74,34 +74,55 @@ export default function FeaturesPlanet() {
           <div className="grid overflow-hidden sm:grid-cols-2 lg:grid-cols-3 *:relative *:p-6 *:before:absolute *:before:bg-gray-800 *:before:[block-size:100vh] *:before:[inline-size:1px] *:before:[inset-block-start:0] *:before:[inset-inline-start:-1px] *:after:absolute *:after:bg-gray-800 *:after:[block-size:1px] *:after:[inline-size:100vw] *:after:[inset-block-start:-1px] *:after:[inset-inline-start:0] md:*:p-10">
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
-                <Image
-                  className="fill-blue-500"
-                  src="@/public/images/analytics.svg" // Replace with your icon
-                  width={16}
-                  height={16}
-                  alt="Instant Analytics"
-                />
-                <span>Instant Analytics</span>
+                <span>Real-Time Risk Insights</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Gain real-time insights into worksite safety and efficiency to help identify hazards before they become critical.
+                Leverage AI to continuously monitor worksite conditions and surface emerging risks before incidents occur.
               </p>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
-                <svg
-                  className="fill-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={16}
-                  height={16}
-                >
-                  <path d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z" />
-                </svg>
-                <span>Metadata</span>
+                <span>Automated Safety Metadata</span>
               </h3>
               <p className="text-[15px] text-gray-400">
-                Automatically collect metadata for compliance, safety audits, and performance reviews.
+                Capture key metadata from every safety event—incidents, near-misses, inspections—for faster analysis and compliance tracking.
               </p>
             </article>
             <article>
-              <h3 className="mb-2 flex items-center space
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+                <span>AI-Powered Hazard Detection</span>
+              </h3>
+              <p className="text-[15px] text-gray-400">
+                Detect unsafe actions, environmental threats, and equipment anomalies through live video and sensor data analysis.
+              </p>
+            </article>
+            <article>
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+                <span>Custom Safety Triggers</span>
+              </h3>
+              <p className="text-[15px] text-gray-400">
+                Configure AI-based thresholds for risk factors and receive instant alerts when safety boundaries are crossed.
+              </p>
+            </article>
+            <article>
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+                <span>Localized Compliance Intelligence</span>
+              </h3>
+              <p className="text-[15px] text-gray-400">
+                Adapt protocols to local laws and standards automatically, ensuring your worksite meets jurisdiction-specific safety mandates.
+              </p>
+            </article>
+            <article>
+              <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+                <span>Unified Safety Records</span>
+              </h3>
+              <p className="text-[15px] text-gray-400">
+                Maintain a single source of truth for training, inspections, and incident history—centralized, searchable, and secure.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
