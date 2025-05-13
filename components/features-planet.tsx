@@ -23,7 +23,7 @@ export default function FeatureSection() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Image
-                  src="/icons/analytics.svg" // Path to the icon in the public folder
+                  src="@/public/images/analytics.svg" // Path to the icon in the public folder
                   alt="Real-Time Safety Analytics"
                   width={24}
                   height={24}
@@ -38,7 +38,7 @@ export default function FeatureSection() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Image
-                  src="/icons/metadata.svg" // Path to the icon in the public folder
+                  src="@/public/images/metadata.svg" // Path to the icon in the public folder
                   alt="Safety Data Management"
                   width={24}
                   height={24}
@@ -53,7 +53,7 @@ export default function FeatureSection() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Image
-                  src="/icons/search.svg" // Path to the icon in the public folder
+                  src="@/public/images/search.svg" // Path to the icon in the public folder
                   alt="Predictive Safety Insights"
                   width={24}
                   height={24}
@@ -68,7 +68,7 @@ export default function FeatureSection() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Image
-                  src="/icons/code.svg" // Path to the icon in the public folder
+                  src="@/public/images/code.svg" // Path to the icon in the public folder
                   alt="Custom Safety Solutions"
                   width={24}
                   height={24}
@@ -83,7 +83,7 @@ export default function FeatureSection() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Image
-                  src="/icons/compliance.svg" // Path to the icon in the public folder
+                  src="@/public/images/compliance.svg" // Path to the icon in the public folder
                   alt="Global Safety Compliance"
                   width={24}
                   height={24}
@@ -98,7 +98,7 @@ export default function FeatureSection() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Image
-                  src="/icons/link.svg" // Path to the icon in the public folder
+                  src="@/public/images/link.svg" // Path to the icon in the public folder
                   alt="Safety Metrics Tracking"
                   width={24}
                   height={24}
