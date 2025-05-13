@@ -83,7 +83,7 @@ export default function FeatureSection() {
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
                 <Image
-                  src="/icons/globe.svg" // Path to the icon in the public folder
+                  src="/icons/compliance.svg" // Path to the icon in the public folder
                   alt="Global Safety Compliance"
                   width={24}
                   height={24}
