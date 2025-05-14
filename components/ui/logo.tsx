@@ -7,7 +7,7 @@ export default function Logo() {
     <Link href="/" className="inline-flex items-center" aria-label="SafeWork.AI">
       <Image
         src={logoImg}
-        alt="SafeWork.AI logo"
+        alt="SafeWorkAI logo"
         width={32}
         height={32}
         priority
