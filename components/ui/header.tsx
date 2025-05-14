@@ -30,7 +30,7 @@ export default function Header() {
           <div className="flex items-center space-x-3">
             <Logo />
             <span className="text-lg font-semibold text-gray-800">
-              SafeWork.AI
+              SafeWorkAI
             </span>
           </div>
         </div>
