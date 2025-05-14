@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Home - safework.ai",
+  title: "Home - SafeWorkAI",
   description: "AI-Powered Safety for Industrial Worksites",
 };
 
