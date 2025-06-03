@@ -18,7 +18,7 @@ export default function Banner() {
               </span>
               <a
                 className="ml-2 text-emerald-400 font-medium hover:underline"
-                href="mailto:akshatvsthakur@gmail.com"
+                href="mailto:info@safeworkai.com"
               >
                 Get in touch
               </a>
